@@ -19,6 +19,32 @@
         </ul>
       </nav>
     </header>
+    <main>
+        <form>
+            <label>Enter your Name:
+                <input type="text">
+            </label>
+        </form>
+        <form>
+            <label>Enter your Email:
+                <input type="text">
+            </label>
+        </form>
+        <form>
+            <label>Reason for Contact:</label>
+            <input list="choices">
+            <datalist id="choices">
+                <option value="Hi"></option>
+                <option value="Looking for a Contractor"></option>
+                <option value="Interested in an Interview"></option>
+            </datalist>
+        </form>
+        <form>
+            <label for="concerns">More Concerns?</label>
+            <textarea id="concerns"></textarea>
+            <button>Submit</button>
+        </form>
+    </main>
     <script src="index.js"></script>
   </body>
 </html>
